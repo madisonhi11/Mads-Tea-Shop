@@ -8,6 +8,7 @@ import {Link} from "react-router-dom";
 import SearchBar from "./Search";
 // import Product from "../pages/Product";
 // import ProductList from "../pages/ProductList";
+// import Contact from "../pages/Contact";
 
 const Container = styled.div`
   height: 60px;
@@ -143,6 +144,11 @@ const Navbar = () => {
           <MenuItem><ul style ={{display:"flex"}}>
             <li style ={{marginRight:"20px", display:"flex"}}>
               <Link style={{textDecoration:'none',color:'#63535B'}} to="/Register">Register</Link>
+              </li>
+          </ul></MenuItem>
+          <MenuItem><ul style ={{display:"flex"}}>
+            <li style ={{marginRight:"20px", display:"flex"}}>
+              <Link style={{textDecoration:'none',color:'#63535B'}} to="/Contact">Contact</Link>
               </li>
           </ul></MenuItem>
                

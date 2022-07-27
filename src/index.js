@@ -24,6 +24,7 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 import Product from "./pages/Product";
 import ProductList from "./pages/ProductList";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )

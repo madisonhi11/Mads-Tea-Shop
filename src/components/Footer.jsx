@@ -140,6 +140,11 @@ import {
               <Link style={{textDecoration:'none',color:'#63535B'}} to="/Register">Register</Link>
               </li>
           </ul></ListItem>
+          <ListItem> <ul style ={{display:"flex"}}>
+            <li style ={{marginRight:"20px", display:"flex"}}>
+              <Link style={{textDecoration:'none',color:'#63535B'}} to="/Contact">Contact</Link>
+              </li>
+          </ul></ListItem>
 
           </List>
         </Center>
